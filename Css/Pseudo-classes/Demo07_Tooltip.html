@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪元素悬浮提示</title>
+    <style>
+        html,body{
+            width:100%;
+            height:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div.box_container{
+            width:70%;
+            height:95%;
+            border:5px solid #acacac;
+            border-radius: 45px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        div.box{
+            width: 250px;
+            height: 50px;
+            border: 2px solid #c2ccdf;
+            font-family: 'Fira Code';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+            letter-spacing: 0.4rem;
+            font-weight: 200;
+            position:relative;
+            transition:all .5s cubic-bezier(0.23, 1, 0.320, 1);
+        }
+        .box:before,
+        .box:after{
+            content:'';
+            position:absolute;
+            background-color: #c2ccdf;
+            opacity: 0;
+            font-size:20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:#494949;
+            transition:all .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        .box:before{
+            width:20px;
+            height: 20px;
+            transform: rotate(45deg);
+        }
+        .box:after{
+            width: 100%;
+            height:100%;
+        }
+        .top:before{
+            top:-25px;
+            left:20px;
+        }
+        .top:after{
+            content:'Tooltip Top';
+            top:-65px;
+        }
+        .left:before{
+            left:-25px;
+        }
+        .left:after{
+            content:'Tooltip Left';
+            left:-265px;
+        }
+        .right:before{
+            right:-25px;
+        }
+        .right:after{
+            content:'Tooltip Right';
+            right:-265px;
+        }
+        .bottom:before{
+            bottom:-25px;
+            left:20px;
+        }
+        .bottom:after{
+            content:'Tooltip Top';
+            bottom:-65px;
+        }
+        .box:hover:before,
+        .box:hover:after{
+            opacity: 1;
+        }
+        .box:hover{
+            background-color: #c2ccdf;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_container">
+        <div class="box top">Tooltip</div>
+        <div class="box left">Tooltip</div>
+        <div class="box right">Tooltip</div>
+        <div class="box bottom">Tooltip</div>
+    </div>
+</body>
+</html>

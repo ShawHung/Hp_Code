@@ -1,0 +1,22 @@
+table,th,tr,td{
+    border: 1px solid #6d676d;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    color:#241d19;
+    table-layout: fixed;
+}
+th,td{
+    padding: 6px 30px;
+}
+tr:nth-child(2n+1){
+    background-color: #b6f8f5;
+}
+tr{
+    transition: background-color 1.2s ease-in-out;
+}
+tr:hover{
+    background-color: #e75f5f;
+}

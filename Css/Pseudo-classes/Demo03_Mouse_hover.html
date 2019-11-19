@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鼠标悬停效果</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height:100%;
+            background-color: #000;
+        }
+        div.main{
+            display:flex;
+            width: 500px;
+            height:400px;
+            border:1px solid #fa6502;
+            margin:50px auto;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        div.button{
+            width: 150px;
+            height: 60px;
+            border:1px solid #fa6502;
+            color:#fa6502;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+        div.hover{
+            position:relative;
+        }
+        div.hover:after{
+            content:'';
+            position:absolute;
+            left: -5%;
+            top:-12.5%;
+            width: 110%;
+            height: 120%;
+            border-top:2px solid  #fa6502;
+            border-bottom:2px solid  #fa6502;
+            z-index:-1;
+            transition: all 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        div.hover:hover:after{   
+            z-index: 0;
+        }
+       div.word_wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: #fa6502;
+            transition: all 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+            z-index: 1;
+        }
+        div.word_wrapper:hover{        
+            color: #ffffff;
+        }
+        div.hover>div.word_wrapper:before{
+            left: 0;   
+        }
+        
+        div.hover>div.word_wrapper:after{
+            right: 0;
+        }
+        div.hover>div.word_wrapper:before,
+        div.hover>div.word_wrapper:after{
+            content:'';
+            height: 100%;
+            border: 0px solid #fa6502;
+            background-color: #fa6502;
+            position: absolute;
+            width:0px;
+            transition:all 1.8s cubic-bezier(0.075, 0.82, 0.165, 1); 
+            z-index: -1;
+          
+        }
+       div.hover>div.word_wrapper:hover:before,
+       div.hover>div.word_wrapper:hover:after{
+            width:100%;
+            border:1px solid #fa6502;
+        }
+        div.normal>div.word_wrapper:before{
+            content:'';
+            position:absolute;
+            height: 100%;
+            width: 0px;
+            left: 0;
+            background-color: #fa6502;
+            z-index: -1;
+            border: 0px solid #fa6502;
+            transition: all 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        div.normal>div.word_wrapper:hover:before{
+            border: 1px solid #fa6502;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="button hover">
+            <div class="word_wrapper">SHAW</div>
+        </div>
+        <div class="button normal">
+                <div class="word_wrapper">SHAW</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    //"allowJs": true,
+    "sourceMap": true,
+    "outDir": "./js/",   /* Redirect output structure to the directory. */
+    "rootDir": "./tsscript/", 
+    "removeComments": false,  //删除注释
+    "noImplicitAny": false
+  
+  }
+      
+  // 可以修改target为es6 
+  // 要调试把 sourceMap改为true
+  // 添加allowjs为true,就可以ts和js混合用了
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS-Outline</title>
+    <style>
+
+        body{     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        div:before{
+            content:"";
+            position:absolute;
+            width: 100px;
+            height: 200px;
+            border: 1px solid #dddd;
+        }
+        .outline{  
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:45px;
+            font-weight: 900;
+            border-radius:5px;
+            width: 500px;
+            height: 300px;
+            outline:rgba(233,23,34,.9) dashed 2px;
+            outline-offset:-10px;
+            border: 1px solid rgba(12,11,11,.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="outline">
+        <p>hello world</p>
+    </div>
+</body>
+</html>

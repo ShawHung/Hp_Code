@@ -1,0 +1,22 @@
+body{
+    background-color: #d4d4d4;
+}
+article{
+    margin: 0 auto;
+    width:85%;
+    word-spacing: 5px;
+    font-family: "微软雅黑";
+    font-size:20px;
+    background-color: #dfb706de;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#b3f5b4, #07ffc1 ) ;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(#f1c709,#c9e29b);
+    
+}
