@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33be41cd-47d9-48b4-8814-cf26585d249f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Css/Pseudo-classes/Demo08_Auto_Typing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Css/Pseudo-classes/Demo08_Auto_Typing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Css_demo/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Css_demo/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Css_demo/Css-demo/Css-counter/counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Css_demo/Css-demo/Css-counter/counter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Css_demo/Css-demo/Light_Reflect_Button/Light_reflect_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Css_demo/Css-demo/Light_Reflect_Button/Light_reflect_button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Css_demo/Css-demo/Table-beautify/Table_beautify.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Css_demo/Css-demo/Table-beautify/Table_beautify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Electron/Demo01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Electron/Demo01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS_Module_History/Modules/IIFE.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS_Module_History/Modules/IIFE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS_Module_History/Modules/IIFE.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS_Module_History/Modules/IIFE.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/JS_async/setTimeout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/JS_async/setTimeout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Test/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../React Test/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React Test/react_form/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../React Test/react_form/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React_hooks/usememo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../React_hooks/usememo/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sass/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Sass/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sass/Sass_Prac/SCSS_Beauti_demo/scss/sixteen_smallbox_waving_delay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Sass/Sass_Prac/SCSS_Beauti_demo/scss/sixteen_smallbox_waving_delay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sass/Sass_Prac/SCSS_Beauti_demo/sixteen_smallbox_waving_delay.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Sass/Sass_Prac/SCSS_Beauti_demo/sixteen_smallbox_waving_delay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ant_design/Ant_demo/myapp01/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Code\ES6\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bYprsMQHNiwTIMf6MXaCYe7Kq7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33be41cd-47d9-48b4-8814-cf26585d249f" name="Default Changelist" comment="" />
+      <created>1588819082380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588819082380</updated>
+      <workItem from="1588819084298" duration="2928000" />
+      <workItem from="1610072756335" duration="1101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
